@@ -33,7 +33,7 @@ int main(){
     while(n>0){
         vec.push_back(n % 2);
         n = n/2;
-        i++;
+        i++; 
     }
     int max = 0, MAX = 0;
     
